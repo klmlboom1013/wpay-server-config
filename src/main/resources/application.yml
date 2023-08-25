@@ -1,0 +1,28 @@
+server:
+  port: 8888
+  shutdown: graceful
+
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka
+#    fetch-registry: true
+#    register-with-eureka: true
+#  instance:
+#    prefer-ip-address: true
+#    secure-port-enabled: false
+
+spring:
+#  lifecycle:
+#    timeout-per-shutdown-phase: 60s
+#  application:
+#    name: wpay-server-config
+  profiles:
+    active: native # local file
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///D:/source-files/config-redo
+          version: 1.0
+
