@@ -1,6 +1,6 @@
 token:
-  expiration_time: 8640033
-  secret: user_token
+  expiration: 864000000 # 10 days
+  secret: '{cipher}AQBtDEn19kXdjLuQ1Ed6xQ10gcHlOe7JTrGJGVmqlTt9LwG204bGRPzjjVJ+6nIsP3g4BitbZJ4mayiidZ8k858ytcl2Uhzk70Eztm4ek3rFAct7jpkBZzQCQlJmV0HgsXMvaDByVvgqWW1CUAsu1N0YzrBlhiV19cg2ryoWZJd6XjdV1qLz5GcyTWh0+CzfedXhS5Tcj3g2m9Ht8QtmlS2B2FadAeUPsD+AzyzSfzGaGDL8Sschicu9uDak1+4c1KfIXw22uX10tjq77EqCE6ijIAsfPrVYJqtXCIGTcNCCs6z1Ax1Ngh3UebcBWpvhOJJfpGLG2whiz8I4DXDGQ6TJHqaLhYUHcY1dqcwa6YNCaWfeNkC0tDnkLqoHjqhly6k='
 
 gateway:
   ip: 192.168.43.84

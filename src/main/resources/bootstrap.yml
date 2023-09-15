@@ -1,0 +1,12 @@
+#########################################################################################
+# JDK의 keytool 기능을 이용하여 키파일을 생성 한다.
+#   $ keytool -genkeypair -alias apiEncryptionKey -keyalg RSA \
+#     -dname "CN=Salgu1998, OU=API Development, O=salgu.co.kr, L=Seoul, C=KR" \
+#     -keypass "password123" -keystore apiEncryptionKey.jks -storepass "password123"
+#########################################################################################
+
+encrypt:
+  key-store:
+    location: file:///C:/Users/Administrator/keystore/apiEncryptionKey.jks
+    password: password123
+    alias: apiEncryptionKey
